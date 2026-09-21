@@ -1,0 +1,172 @@
+/* reset styling */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.wrapper {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 950px;
+  align-items: center;
+  align-self: auto;
+  align-content: center;
+  background-color: brown;
+  margin-top: 5%;
+  padding-left: 50px;
+}
+/* webpage-1 */
+.webpage-1 {
+  display: flex;
+  transform: translateY(-100px);
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  gap: 30px;
+}
+/* navs ul */
+.navs {
+  margin-left: auto;
+}
+
+.navs ul {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+/* navs a */
+.navs a {
+  text-decoration: none;
+  color: black;
+}
+
+/* footer buttons */
+footer button {
+  margin-left: 0;
+}
+
+/* logo */
+.logo {
+  position: relative;
+  width: 150px;
+  height: 80px;
+}
+
+.polygon {
+  position: absolute;
+  top: 5px;
+  left: -70px;
+}
+
+.polygon img {
+  width: 50px;
+}
+
+.h1 {
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  left: -60px;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* columns */
+.columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  transform: translateY(-20px);
+}
+
+.column-1 {
+  width: 50%;
+  display: block;
+}
+
+.column-2 {
+  width: 50%;
+  max-width: 500px;
+  padding-right: 40px;
+}
+
+.column-2 img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.column-1 h1 {
+  margin: 0 0 20px 0;
+}
+
+.column-1 p {
+  margin: 0 0 20px 0;
+}
+/* column-1 content */
+.c-heading {
+  font-size: 3.5rem;
+  .span {
+    color: orange;
+  }
+}
+.paragraph {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+/* button-join for free */
+.join {
+  background-color: orange;
+  border-radius: 1.5rem;
+  padding: 1.1rem 2rem;
+  color: white;
+  font-size: 1rem;
+}
+
+/* watching button */
+.watch {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.watch img {
+  width: 50px;
+}
+
+.watch p {
+  margin: 0;
+}
+
+.white {
+  background-color: white;
+  color: #333;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+}
