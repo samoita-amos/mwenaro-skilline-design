@@ -358,6 +358,12 @@ footer button {
   gap: 60px;
 }
 
+.page-5-column-1,
+.page-5-column-2 {
+  width: 50%;
+  box-sizing: border-box;
+}
+
 /* column 1 */
 
 .page-5-heading {
@@ -369,11 +375,16 @@ footer button {
   z-index: 2;
 }
 
+.orange {
+  color: #F48C06;
+  background-color: transparent;
+}
+
 .page-5-heading img {
   position: absolute;
 
   width: 65px;
-  height: 65px;
+  height: 60px;
 
   left: 0;
   top: -5px;
@@ -388,21 +399,18 @@ footer button {
 
   font-size: 1rem;
   line-height: 1.7;
-
   margin: 0;
 }
 
 /* Ellipse 13 */
 
 .page-5-column-1 p img {
-  width: 45px;
-  height: 45px;
-
-  display: inline-block;
-
-  vertical-align: middle;
-
-  margin: 0 -5px;
+  .ellipse-13 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-left: 20px;
+}
 
   z-index: -1;
 }
@@ -416,16 +424,15 @@ footer button {
 }
 
 .page-5-column-1 nav a {
-  color: orange;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
 }
 
 /* column 2 */
 
 .page-5-column-2 {
   width: 50%;
-  height: 450px;
-
+  height: 500px;
   position: relative;
 
   display: flex;
@@ -433,46 +440,287 @@ footer button {
   align-items: center;
 }
 
-/* Rectangle 18
-   TOP LEFT
-*/
-
+/* Rectangle 18 - TOP LEFT */
 .rectangle-18 {
   position: absolute;
 
-  top: 20px;
-  left: 20px;
+  top: 80px;
+  left: 10px;
 
-  width: 190px;
+  width: 220px;
   height: auto;
 
   z-index: 1;
 }
 
-/* Rectangle 17
-   BOTTOM RIGHT
-*/
-
+/* Rectangle 17 - BOTTOM RIGHT */
 .rectangle-17 {
   position: absolute;
 
-  bottom: 20px;
-  right: 20px;
+  bottom: 80px;
+  right: 10px;
 
-  width: 190px;
+  width: 220px;
   height: auto;
 
   z-index: 1;
 }
 
 /* MAIN IMAGE */
-
 .group-17 {
-  position: relative;
+  position: absolute;
 
-  width: 400px;
-  max-width: 90%;
+  width: 450px;
   height: auto;
 
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
   z-index: 2;
+}
+.orange {
+    color: #F48C06 !important;
+}
+
+/* ================================
+   WEBPAGE 6
+================================ */
+
+.webpage-6 {
+  width: 100%;
+  padding: 60px 40px;
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   TOP HEADING
+================================ */
+
+.webpage-6 .main-content {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.webpage-6 .main-content h3 {
+  margin: 0 0 15px 0;
+}
+
+.webpage-6 .main-content p {
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+/* ================================
+   ROW
+   COLUMN 1 = 2/3
+   COLUMN 2 = 1/3
+================================ */
+
+.webpage-6 .rows {
+  width: 100%;
+}
+
+.webpage-6 .row-1 {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center;
+  gap: 40px;
+}
+
+
+/* ================================
+   COLUMN 1 = 2/3
+================================ */
+
+.webpage-6 .row-1-column-1 {
+  width: 66.67% !important;
+  flex: 0 0 66.67% !important;
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   COLUMN 2 = 1/3
+================================ */
+
+.webpage-6 .row-1-column-2 {
+  width: 33.33% !important;
+  flex: 0 0 33.33% !important;
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   COLUMN 1
+   ELLIPSES
+================================ */
+
+.webpage-6 .ellipses {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+
+/* ================================
+   ELLIPSE 22
+   TOP LEFT
+================================ */
+
+.webpage-6 .ellipse-22 {
+  position: absolute !important;
+
+  width: 180px !important;
+  height: auto !important;
+
+  top: 30px;
+  left: 40px;
+
+  z-index: 1;
+}
+
+
+/* ================================
+   ELLIPSE 21
+   BESIDE ELLIPSE 22
+================================ */
+
+.webpage-6 .ellipse-21 {
+  position: absolute !important;
+
+  width: 70px !important;
+  height: auto !important;
+
+  top: 30px;
+  left: 210px;
+
+  z-index: 1;
+}
+
+
+/* ================================
+   ELLIPSE 20
+   BOTTOM LEFT
+================================ */
+
+.webpage-6 .ellipse-20 {
+  position: absolute !important;
+
+  width: 180px !important;
+  height: auto !important;
+
+  bottom: 30px;
+  left: 40px;
+
+  z-index: 1;
+}
+
+
+/* ================================
+   ELLIPSE 19
+   BESIDE ELLIPSE 20
+================================ */
+
+.webpage-6 .ellipse-19 {
+  position: absolute !important;
+
+  width: 180px !important;
+  height: auto !important;
+
+  bottom: 30px;
+  left: 210px;
+
+  z-index: 1;
+}
+
+
+/* ================================
+   GROUP 71
+   IN FRONT OF ELLIPSES
+================================ */
+
+.webpage-6 .group-71 {
+  position: absolute !important;
+
+  width: 420px !important;
+  max-width: 90%;
+
+  height: auto !important;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 5;
+}
+
+
+/* ================================
+   COLUMN 2 HEADING
+================================ */
+
+.webpage-6 .row-1-column-2 h4 {
+  width: 100%;
+
+  font-size: 2rem;
+  line-height: 1.4;
+
+  text-align: center;
+
+  margin: 0 0 40px 0;
+}
+
+
+/* ================================
+   EACH IMAGE + PARAGRAPH
+================================ */
+
+.webpage-6 .feature-item {
+  width: 100%;
+
+  display: flex !important;
+  flex-direction: row !important;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 25px;
+}
+
+
+/* ================================
+   SMALL ELLIPSE IMAGES
+================================ */
+
+.webpage-6 .feature-item img {
+  width: 55px !important;
+  height: 55px !important;
+
+  flex: 0 0 55px;
+
+  object-fit: contain;
+}
+
+
+/* ================================
+   PARAGRAPHS
+================================ */
+
+.webpage-6 .feature-item p {
+  margin: 0;
+
+  flex: 1;
+
+  line-height: 1.5;
+
+  text-align: left;
 }
